@@ -40,14 +40,14 @@ namespace Mp3TagSorter
             GetDirectories();
             var files = GetFilesOf(target);
             var actions = ArrangeFiles(files);
-
-            var tasks = actions.Select<Action<string>, Action>(x => () => x.Invoke(destination)).ToList();
-            
-            if (tasks == null)
+            if (actions == null)
             {
                 Console.WriteLine("Bye!");
                 return;
             }
+            var tasks = actions.Select<Action<string>, Action>(x => () => x.Invoke(destination)).ToList();
+            
+            
 
             //tasks.ForEach((action) => action());
             Task.WaitAll(tasks.Select(x => Task.Run(x)).ToArray());
@@ -122,7 +122,7 @@ namespace Mp3TagSorter
 
             n.PrintPretty();
 
-            Console.Write("Is that ok?");
+            Console.Write("Is that ok? (Y/N)");
             bool ok = Console.ReadKey(true).Key == ConsoleKey.Y;
 
             return ok ? actions : null;
