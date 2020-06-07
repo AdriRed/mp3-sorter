@@ -51,7 +51,9 @@ namespace Mp3TagSorter
 
             //tasks.ForEach((action) => action());
             Task.WaitAll(tasks.Select(x => Task.Run(x)).ToArray());
-            Console.WriteLine("Completed all");
+            Console.Clear();
+            Console.WriteLine("Completed, press any key to exit...");
+            Console.ReadKey(true);
         }
 
         static List<Action<string>> ArrangeFiles(List<string> files) {
