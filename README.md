@@ -2,7 +2,7 @@
 
 ## How it works?
 
-This .exe reads the mp3's metadata and copies the files to a new folder first grouping by Artist, then by Album ([year] Album) and then copies all .mp3 of the album with the format (00. <song> - <album artist>.mp3).
+This .exe reads the mp3's metadata and copies the files to a new folder first grouping by Artist, then by Album ([year] Album) and then copies all .mp3 of the album with the format (00. (song) - (album artist).mp3).
 
 ## Example
 
