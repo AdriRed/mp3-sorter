@@ -28,8 +28,8 @@ After giving the source folder (C:\Temp) and an output folder (C:\Music), will s
 \Gorillaz\[2001] Gorillaz\01. Re-Hash - Gorillaz.mp3  
 \Gorillaz\[2001] Gorillaz\02. 54 - Gorillaz.mp3 -- (/ not allowed)  
 \Gorillaz\[2001] Gorillaz\05. Clint Eastwood - Gorillaz.mp3  
-\Gorillaz\[2001] Plastic Beach\02. Welcome To The World Of The Plastic Beach - Gorillaz.mp3  
-\Gorillaz\[2001] Plastic Beach\09. On Melancholy Hill - Gorillaz.mp3 
+\Gorillaz\[2010] Plastic Beach\02. Welcome To The World Of The Plastic Beach - Gorillaz.mp3  
+\Gorillaz\[2010] Plastic Beach\09. On Melancholy Hill - Gorillaz.mp3 
 ```
 
 ## Dependencies
